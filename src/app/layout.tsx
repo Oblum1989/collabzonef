@@ -14,7 +14,7 @@ export default function RootLayout({
           <Navbar />
           <div className="flex flex-1">
             <Sidebar />
-            <main className="container flex justify-center flex-1 p-4">
+            <main className="container flex justify-center p-4">
               {children}
             </main>
           </div>

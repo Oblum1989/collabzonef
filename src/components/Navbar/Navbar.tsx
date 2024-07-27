@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
@@ -7,9 +8,9 @@ export default function NavBar() {
         <div>
           <Image src="/icons/menu.svg" alt="menu" width={20} height={20} />
         </div>
-        <div>
+        <Link href="/wall" >
           <Image src="/icons/empresa.png" alt="menu" width={60} height={60} />
-        </div>
+        </Link>
       </div>
       <div className="flex justify-between items-center gap-6">
         <div className="flex justify-center items-center gap-2 bg-slate-200 py-2 px-4 text-black rounded-xl">
