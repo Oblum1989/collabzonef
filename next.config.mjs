@@ -2,6 +2,12 @@
 const nextConfig = {
   images: {
     domains: ['reqres.in'],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
   },
 };
 

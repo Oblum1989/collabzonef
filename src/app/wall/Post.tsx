@@ -1,7 +1,8 @@
-import SimpleCard from "@/components/SimpleCard/SimpleCard";
+import SimpleCard from "@/components/Card/SimpleCard";
 import { PostProps } from "@/types/post";
 import Image from "next/image";
-import PostEmoticons from "./PostEmoticons";
+import Emoticons from "../../components/Emoticons";
+import Comments from "@/components/Comments";
 
 export default function Post({ avatar, user, created_at, content }: PostProps) {
   return (
@@ -15,12 +16,9 @@ export default function Post({ avatar, user, created_at, content }: PostProps) {
           </div>
         </div>
         <p className="mt-3">{content}</p>
-        <PostEmoticons />
+        <Emoticons />
       </div>
-      <div className="flex justify-between">
-        <div>Comentar</div>
-        <div>Ver todo</div>
-      </div>
+      <Comments />
     </SimpleCard>
   )
 }

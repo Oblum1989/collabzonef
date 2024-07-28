@@ -1,4 +1,4 @@
-import SimpleCard from "@/components/SimpleCard/SimpleCard";
+import SimpleCard from "@/components/Card/SimpleCard";
 import Post from "./Post";
 import Posts from "./Posts";
 

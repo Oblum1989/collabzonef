@@ -1,13 +1,12 @@
 'use client';
-import { EmojiPicker } from "@/components/EmojiPicker/EmojiPicker"
-import { Divide } from "lucide-react";
 import { useState } from "react";
+import { EmojiPicker } from "../EmojiPicker";
 
 interface EmojiCount {
   [emoji: string]: number;
 }
 
-export default function PostEmoticons() {
+export default function Emoticons() {
   const [emojis, setEmojis] = useState<EmojiCount>({});
   const [showEmojisPicker, setShowEmojisPicker] = useState(false)
 
