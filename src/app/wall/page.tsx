@@ -1,5 +1,4 @@
 import SimpleCard from "@/components/Card/SimpleCard";
-import Post from "./Post";
 import Posts from "./Posts";
 
 export default function Wall() {
