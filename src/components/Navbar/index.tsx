@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="bg-sky-600 flex justify-between py-2 px-4">
+    <nav className="bg-sky-600 flex justify-between py-1 px-4">
       <div className="flex justify-between gap-4 items-center">
         <div>
           <Image src="/icons/menu.svg" alt="menu" width={20} height={20} />
