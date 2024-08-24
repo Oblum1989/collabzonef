@@ -29,6 +29,12 @@ export default function Sidebar() {
             <span>notes</span>
           </li>
         </Link>
+        <Link href="/tracker" >
+          <li className="mb-2 hover:bg-gray-300 p-3 hover:rounded-xl">
+            <Image src="/icons/home.png" alt="menu" width={30} height={30} />
+            <span>tracker</span>
+          </li>
+        </Link>
       </ul>
     </aside>
   )
